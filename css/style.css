@@ -15,7 +15,8 @@ body {
 
 /* Header */
 header{
-    text-align: center;
+    margin: 0 auto;
+    display: table;
     padding-top:30px;
     min-height: 70px;
     border-bottom:#000000, 3px solid; 
@@ -48,8 +49,6 @@ header #page_top h1{
 }
 
 header nav{
-    margin: 0 auto;
-    display: table;
     margin-top:10px;
 }
 
