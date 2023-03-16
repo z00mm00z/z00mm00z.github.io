@@ -48,7 +48,8 @@ header #page_top h1{
 }
 
 header nav{
-    text-align: center;
+    margin: 0 auto;
+    display: table;
     margin-top:10px;
 }
 
