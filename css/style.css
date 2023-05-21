@@ -10,7 +10,7 @@ body {
 .container{
     width:80%;
     margin: 0 auto;
-    overflow:hidden;
+    overflow:visible;
 }
 
 /* Header */
@@ -35,7 +35,7 @@ header a{
 
 .nav-justify ul {
     list-style-type: none;
-    text-align: justify;
+    text-align:justify;
 }
 
 .nav-justify ul li {
@@ -62,6 +62,10 @@ div#page-welcome h1#main-title{
 
 div#page-welcome p{
     font-size: 1.5em;
+}
+
+div#page-welcome p#excuse {
+    font-size: 0.2em;
 }
 
 .contact-body{
