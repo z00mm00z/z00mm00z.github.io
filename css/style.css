@@ -36,6 +36,7 @@ header a{
 .nav-justify ul {
     list-style-type: none;
     text-align:justify;
+    padding: 0;
 }
 
 .nav-justify ul li {
