@@ -56,12 +56,28 @@ div#page-welcome{
     margin-top: 100px;
     margin-bottom: 100px;
 
-    img {
+    a {
         float: right;
+    }
+
+    img {
         width: 128px;
         height: 128px;
+        border-style: solid;
+        border-width: 2px;
         border-radius: 50%;
+        display: block;
+        margin: 10px;
         overflow: hidden;
+        border-style: solid;
+        border-color: #ffffff;
+        background-color: #ffffff;
+
+        transition: border-radius 0.5s;
+    }
+
+    img:hover {
+        border-radius: 25%;
     }
 }   
 
