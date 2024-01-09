@@ -60,7 +60,7 @@ div#page-welcome a {
     float: right;
 }
 
-div#page-welcome img { /* this img css is not being displaying on safari */
+div#page-welcome img {
     width: 128px;
     height: 128px;
     border-style: solid;
